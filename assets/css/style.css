@@ -1,0 +1,250 @@
+:root {
+    --primary-color: #565555;
+    --font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* utilities */
+.canister {
+    padding: 5px 10rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.mx-1 {
+    margin-inline: 2px;
+}
+
+.mx-2 {
+    margin-inline: 4px;
+}
+
+.mx-3 {
+    margin-inline: 6px;
+}
+
+.mx-4 {
+    margin-inline: 8px;
+}
+
+.mx-5 {
+    margin-inline: 10px;
+}
+
+.mt-1 {
+    margin-top: 2px;
+}
+
+.mt-2 {
+    margin-top: 4px;
+}
+
+.mt-3 {
+    margin-top: 6px;
+}
+
+.mt-4 {
+    margin-top: 8px;
+}
+
+.mt-5 {
+    margin-top: 10px;
+}
+
+.me-1 {
+    margin-right: 2px;
+}
+
+.me-2 {
+    margin-right: 4px;
+}
+
+.me-3 {
+    margin-right: 6px;
+}
+
+.me-4 {
+    margin-right: 8px;
+}
+
+.me-5 {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.primary-btn {
+    color: #fff;
+    display: inline-block;
+    padding: 6px 18px;
+    font-size: 12px;
+    background-color: #000;
+    border-radius: 20px;
+}
+
+.divider {
+    margin-top: 5rem;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.divider-text::before,
+.divider-text::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    border-top: 1px solid #00000078;
+    width: 50%;
+    transform: translateY(-50%);
+}
+
+.divider-text::before {
+    left: -15%;
+}
+
+.divider-text::after {
+    right: -15%;
+}
+
+/* utilities end */
+
+.top-bar {
+    padding-block: 8px;
+    background-color: #EBEBEA;
+}
+
+.top-bar .wrapper {
+    justify-content: end;
+}
+
+.top-bar a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/* --------------- Navbar --------------- */
+.navbar {
+    padding-block: 2.2rem;
+    justify-content: space-between;
+}
+
+.navbar .menu ul {
+    list-style-type: none;
+}
+
+.navbar .menu li {
+    margin-right: 1.5rem;
+}
+
+.navbar .submit-btn {
+    padding: 7px 2rem;
+    color: #856D3E;
+    border: 1px solid #856D3E;
+    border-radius: 20px;
+}
+
+/* --------------- Header --------------- */
+.header {
+    position: relative;
+    padding-inline: 3rem;
+}
+
+.header img {
+    width: 100%;
+}
+
+.header .wrapper {
+    width: calc(100% - 20rem);
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: #fff;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header .wrapper h1 {
+    font-size: 50px;
+}
+
+.section {
+    margin-top: 3rem;
+}
+
+/* --------------- section one --------------- */
+.section-one {
+    justify-content: space-between;
+}
+
+.section-one>div {
+    flex: 1;
+}
+
+.section-one img {
+    width: 100%;
+}
+
+/* --------------- section two --------------- */
+.section-two>div {
+    margin-right: 2rem;
+}
+
+.section-two>div:last-child {
+    margin-right: 0;
+}
+
+.section-two img {
+    width: 100%;
+}
+
+.section-two p {
+    font-size: 16px;
+}
+
+.section-two span {
+    font-size: 14px;
+}
+
+/* --------------- section three --------------- */
+.section-three {
+    padding: 2rem;
+    background-color: #EDEEEC;
+}
+
+.section-three .content {
+    padding: 3rem;
+}
+
+/* --------------- section four --------------- */
+.section-four {
+    justify-content: space-between;
+}
+
+.section-four .top {
+    font-size: 12px;
+    padding-block: 1rem;
+    justify-content: space-between;
+}
+
+.section-four .card {
+    width: 30%;
+}
+
+.section-four .card p {
+    font-size: 12px;
+    line-height: 2;
+}
